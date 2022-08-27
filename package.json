@@ -1,0 +1,8 @@
+{
+    "name": "@lumeweb/relay-plugins-core",
+    "type": "module",
+    "version": "0.1.0",
+    "devDependencies": {
+        "@lumeweb/relay": "https://github.com/LumeWeb/relay.git"
+    }
+}
