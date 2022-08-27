@@ -13,7 +13,7 @@ const plugin: Plugin = {
             }
         })
 
-        api.registerMethod("ping", {
+        api.registerMethod("get_methods", {
             cacheable: false,
             handler: async (): Promise<RPCResponse | null> => {
                 return {
