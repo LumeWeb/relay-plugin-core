@@ -1,5 +1,5 @@
 {
-    "name": "@lumeweb/relay-plugins-core",
+    "name": "@lumeweb/relay-plugin-core",
     "type": "module",
     "version": "0.1.0",
     "scripts": {
