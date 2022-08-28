@@ -2,6 +2,9 @@
     "name": "@lumeweb/relay-plugins-core",
     "type": "module",
     "version": "0.1.0",
+    "scripts": {
+        "build": "tsc && mv dist/index.js dist/core.js"
+    },
     "devDependencies": {
         "@lumeweb/relay": "https://github.com/LumeWeb/relay.git"
     }
