@@ -1,5 +1,4 @@
-import type { Plugin, PluginAPI } from "@lumeweb/relay";
-import { RPCResponse } from "@lumeweb/relay";
+import type { Plugin, PluginAPI, RPCResponse } from "@lumeweb/relay";
 
 const plugin: Plugin = {
   name: "core",
