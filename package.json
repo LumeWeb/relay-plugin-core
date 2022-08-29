@@ -6,6 +6,6 @@
         "build": "tsc && mv dist/index.js dist/core.js"
     },
     "devDependencies": {
-        "@lumeweb/relay": "https://github.com/LumeWeb/relay.git"
+        "@lumeweb/relay-types": "https://github.com/LumeWeb/relay-types.git"
     }
 }
