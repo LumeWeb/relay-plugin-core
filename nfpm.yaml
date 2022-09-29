@@ -14,5 +14,6 @@ contents:
   dst: /etc/lumeweb/relay/plugins/core.js
 - src: ./core.json
   dst: /etc/lumeweb/relay/config.d/core.json
+  type: config
 depends:
     - lumeweb-relay
