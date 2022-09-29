@@ -1,0 +1,18 @@
+name: "lumeweb-relay-plugin-core"
+arch: "amd64"
+platform: "linux"
+version: "v0.1.0"
+section: "default"
+priority: "extra"
+maintainer: "Derrick Hammer contact@lumeweb.com"
+description: Core Plugin for Lume Web Relay
+vendor: "Hammer Technologies LLC"
+homepage: "https://lumeweb.com"
+license: "MIT"
+contents:
+- src: ./dist/core.js
+  dst: /etc/lumeweb/relay/plugins/core.js
+- src: ./core.json
+  dst: /etc/lumeweb/relay/config.d/core.json
+depends:
+    - lumeweb-relay
